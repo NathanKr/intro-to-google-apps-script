@@ -1,31 +1,38 @@
 <h1>Project Name</h1>
-....
+Introduction to google apps script
 
 
 
 <h2>Project Description</h2>
-....
+Simple google apps script project with function that print 'hello world' to the console on demand and with timer
 
 <h2>Motivation</h2>
-I have an app that once every 24 hours move 24+ hours old email to inbox-old and its usefull to keep the inbox fresh. it is invoked once every 24 hours from digital ocean droplet. I have create new droplet with newer node and i want to copy it to the new droplt. i tries to compile it but it is not working . so i am looking for other options to perform the original task and seems that google app script can do the job
+I have an app that once every 24 hours move 24+ hours old emails to inbox-old and its usefull to keep the inbox fresh. it is invoked once every 24 hours from digital ocean droplet. I have create new droplet with newer node and i want to copy it to the new droplt. i tries to compile it but it is not working . so i am looking for other options to perform the original task and seems that google app script can do the job
 
 
 <h2>Installation</h2>
-....
+No installation is required but you do need gmail account
 
 
 <h2>Usage</h2>
-....
+The usage here includes the following steps
 
-
-<h2>Design</h2>
-
-
-<h2>Technologies Used</h2>
-....
+<ul>
+<li>create project</li>
+<li>create function</li>
+<li>run selected function</li>
+<li>add trigger</li>
+<li>run selected function with trigger</li>
+</ul>
 
 <h2>Code Structure</h2>
-....
+The invoked function 
+
+```js
+function helloWorld() {
+  Logger.log("Hello, World!");
+}
+```
 
 <h2>Demo</h2>
 
@@ -38,6 +45,8 @@ click <a href='https://script.google.com'>https://script.google.com</a> for the 
 <h3>Create new project</h3>
 Create new project by clicking on the button 'New project' as shown in the image
 <img src='./figs/create-new-project.png'/>
+
+You sould also save the project
 
 <h3>Created project</h3>
 The function HelloWorld  (circled in red) was add to the new project. Click on the Run button (circled in red) to invoke it and see the result in the 'Execution log' below
@@ -67,12 +76,11 @@ Following time driven trigger you will see
 <h2>Points of Interest</h2>
 <ul>
     <li><a href='https://www.npmjs.com/package/@google/clasp'>clasp</a></li>
-   
+    <li>only google account is required here but if this google account belong to a google workspace you get more benefirs e.g. more quota</li>
 </ul>
 
 <h2>References</h2>
 <ul>
     <li><a href='https://developers.google.com/apps-script'>Official docs</a></li>
-   
 </ul>
 
