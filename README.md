@@ -64,7 +64,7 @@ Logger.log("Hello, World!");
 
 <h2>Points of Interest</h2>
 <ul>
-    <li><a href="https://www.npmjs.com/package/@google/clasp" target="_blank">Clasp</a> – A command-line tool for Google Apps Script.</li>
+    <li><a href="https://www.npmjs.com/package/@google/clasp" target="_blank">Clasp</a> – A command-line tool for managing Google Apps Script projects, useful for local development, version control, and automated deployment.</li>
     <li>A Google account is required. If you're using a Google Workspace account, you’ll have additional benefits, such as increased quotas.</li>
 </ul>
 
