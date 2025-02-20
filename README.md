@@ -35,6 +35,7 @@ Logger.log("Hello, World!");
 ```
 
 <h2>Demo</h2>
+This demo show a simple usage flow
 
 <h3>Dashboard Screen</h3>
 <p>Go to <a href="https://script.google.com" target="_blank">Google Apps Script Dashboard</a>. You'll see 'My Projects' and 'My Triggers' highlighted in red.</p>
