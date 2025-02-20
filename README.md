@@ -6,24 +6,24 @@ Introduction to google apps script
 <h2>Project Description</h2>
 Simple google apps script project with function that print 'hello world' to the console on demand and with timer
 
-<h2>Motivation</h2>
-I have an app that once every 24 hours move 24+ hours old emails to inbox-old and its usefull to keep the inbox fresh. it is invoked once every 24 hours from digital ocean droplet. I have create new droplet with newer node and i want to copy it to the new droplt. i tries to compile it but it is not working . so i am looking for other options to perform the original task and seems that google app script can do the job
+<h2>Motivation</h2> I needed a reliable way to keep my inbox fresh by moving emails older than 24 hours to a separate folder. Initially, I used a Digital Ocean droplet, Gmail API, and authentication to handle this task, and it worked for a few years. However, I recently faced issues when updating to a newer node version. Google Apps Script seems like a suitable alternative to accomplish this task seamlessly, but first, I need to explore this technology.
 
 
 <h2>Installation</h2>
-No installation is required but you do need gmail account
+No installation is required but you do need Gmail account
 
 
 <h2>Usage</h2>
-The usage here includes the following steps
-
+<p>The usage here includes the following steps:</p>
 <ul>
-<li>create project</li>
-<li>create function</li>
-<li>run selected function</li>
-<li>add trigger</li>
-<li>run selected function with trigger</li>
+    <li>Create Project</li>
+    <li>Create Function</li>
+    <li>Run Selected Function</li>
+    <li>Add Trigger</li>
+    <li>Run Selected Function with Trigger</li>
 </ul>
+<p>For detailed steps, please refer to the <strong>Demo</strong> section below.</p>
+
 
 <h2>Code Structure</h2>
 The invoked function 
@@ -46,7 +46,7 @@ click <a href='https://script.google.com'>https://script.google.com</a> for the 
 Create new project by clicking on the button 'New project' as shown in the image
 <img src='./figs/create-new-project.png'/>
 
-You sould also save the project
+You should also save the project
 
 <h3>Created project</h3>
 The function HelloWorld  (circled in red) was add to the new project. Click on the Run button (circled in red) to invoke it and see the result in the 'Execution log' below
@@ -75,8 +75,8 @@ Following time driven trigger you will see
 
 <h2>Points of Interest</h2>
 <ul>
-    <li><a href='https://www.npmjs.com/package/@google/clasp'>clasp</a></li>
-    <li>only google account is required here but if this google account belong to a google workspace you get more benefirs e.g. more quota</li>
+    <li><a href='https://www.npmjs.com/package/@google/clasp'>Clasp</a></li>
+    <li>only google account is required here but if this google account belong to a google workspace you get more benefits e.g. more quota</li>
 </ul>
 
 <h2>References</h2>
